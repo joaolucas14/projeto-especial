@@ -6,6 +6,7 @@ import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
 import TimeCounter from "../Components/TimeCounter";
+import MusicPlayer from "../Components/MusicPlayer";
 
 const responsive = {
   all: {
@@ -19,16 +20,8 @@ export default function Sobre() {
     <div className="about-page">
       <main className="about-content">
         <section id="galeria" className="carousel-section">
-          <iframe
-            style={{ borderRadius: "12px" }}
-            src="https://open.spotify.com/embed/track/1DLKuppSYytOuxhtI6KBGu?utm_source=generator&theme=0&autoplay=1"
-            frameBorder="0"
-            height={"100px"}
-            allowFullScreen
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-          ></iframe>
-          <h2 className="subtitulo">Galeria</h2>
+          <MusicPlayer />
+          <h2 className="subtitulo">Nossa História!</h2>
           <Carousel
             responsive={responsive}
             autoPlay={true}
