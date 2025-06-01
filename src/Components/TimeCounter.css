@@ -7,7 +7,7 @@
 }
 
 .time-counter p:last-child {
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px;
   line-height: 2.4rem;
   background: linear-gradient(90deg, #ffffff, #c5c5c5);
