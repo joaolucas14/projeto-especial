@@ -7,10 +7,10 @@
 }
 
 .time-counter p:last-child {
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 2px;
   line-height: 2.4rem;
-  background: linear-gradient(90deg, #b388ff, #7e57c2);
+  background: linear-gradient(90deg, #ffffff, #c5c5c5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: glow 2s ease-in-out infinite alternate;
@@ -18,9 +18,9 @@
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px rgba(179, 136, 255, 0.4);
+    text-shadow: 0 0 10px rgba(#ffffff, 136, 255, 0.4);
   }
   to {
-    text-shadow: 0 0 20px rgba(179, 136, 255, 0.8);
+    text-shadow: 0 0 20px rgba(#c5c5c5, 136, 255, 0.8);
   }
 }
