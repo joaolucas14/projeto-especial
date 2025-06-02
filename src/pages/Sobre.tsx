@@ -129,11 +129,14 @@ export default function Sobre() {
         <section>
           <p className="texto">
             Olha só quem diria em, estamos nós completando nosso primeiro ano,
-            um tempo de muito aprendizado mas não poderia ter pedido coisa
-            melhor a Deus do que esse nosso namoro, obrigado por tudo, por todos
-            ensinamentos, inspiração carinho, aconchego, acolhimento, enfim
-            obrigado por ser você, te amo demais e estamos apenas no começo 1/∞.
-            (Obs: fiz pra gente não se perder mais nas contas kkkkkk)
+            um tempo de muito aprendizado, se você soubesse o tanto que eu pedi
+            a Deus para ter algo minimamente parecido com isso, e ele me
+            surpreende da melhor maneira possível, com a garota mais linda e
+            dedicada deste mundo, obrigado por tudo, por todos ensinamentos,
+            inspiração carinho, amor, aconchego, acolhimento, enfim obrigado por
+            ser você, te amo mais do que ontem, e menos que amanhã e estamos
+            apenas no começo 1/∞. (Obs: fiz pra gente não se perder mais nas
+            contas kkkkkk)
           </p>
         </section>
       </main>
